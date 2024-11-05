@@ -1,0 +1,73 @@
+body {
+    background-color: black; /* Fondo de la página negro */
+    color: white; /* Color del texto blanco */
+    font-family: Arial, sans-serif; /* Fuente */
+  }
+  
+  header {
+    background-color: #333; /* Fondo del header */
+    padding: 10px 0; /* Espaciado en el header */
+  }
+  
+  nav ul {
+    list-style: none; /* Sin viñetas */
+    display: flex; /* Flexbox para el menú */
+    justify-content: center; /* Centrar elementos del menú */
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Espaciado entre elementos del menú */
+  }
+  
+  nav ul li a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  section {
+    padding: 20px; /* Espaciado en secciones */
+  }
+  
+  .task {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #222; /* Fondo oscuro para las tareas */
+  }
+  
+  #tasks-container {
+    margin-top: 20px;
+  }
+  
+  footer {
+    text-align: center; /* Centrar texto del footer */
+    padding: 10px 0; /* Espaciado en el footer */
+    background-color: #333; /* Fondo del footer */
+  }
+  
+  form {
+    margin-top: 20px; /* Espacio arriba de los formularios */
+  }
+  
+  input, textarea, select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espacio entre campos */
+    border: 1px solid #ccc; /* Borde claro */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Color del botón */
+    color: white; /* Color del texto en el botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Color al pasar el mouse */
+  }
+  
