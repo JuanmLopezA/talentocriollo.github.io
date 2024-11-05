@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talento Criollo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="portafolio">
+    <h2>Portafolio</h2>
+    <form id="upload-task-form">
+      <input type="text" id="task-title" placeholder="Título de la Tarea" required>
+      <textarea id="task-description" placeholder="Descripción de la Tarea" required></textarea>
+      <button type="submit">Subir Tarea</button>
+    </form>
+    <div id="tasks-container"></div>
+  </section>
+
+  <section id="nosotros">
+    <h2>Nuestros Proyectos</h2>
+    <div id="submitted-tasks"></div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto y Postulación</h2>
+    <h3>Proyectos Disponibles</h3>
+    <div id="available-projects"></div>
+    
+    <h3>Postúlate a un Proyecto</h3>
+    <form id="application-form">
+      <input type="text" id="applicant-name" placeholder="Tu Nombre" required>
+      <input type="email" id="applicant-email" placeholder="Tu Email" required>
+      <select id="project-select" required></select>
+      <button type="submit">Postularse</button>
+    </form>
+    <div id="applications-container"></div>
+  </section>
+
+  <footer>
+    <p>© 2024 Talento Criollo. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
